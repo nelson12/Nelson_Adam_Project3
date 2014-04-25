@@ -36,4 +36,13 @@ consle.log("My pets are" + petNames);
 petNames.push("Bunker");
 //array property
 petNames.length;
-console.log("Now I have" + petNames.length + "now.");  
+console.log("Now I have" + petNames.length + "now.");
+//nesting conditional
+var heirloomGear = 6
+if(heirloomGear<5){
+	console.log("start leveling");
+if(heirloomGear>5){
+	console.log("time to power house it");}
+}else{
+	console.log("get your character some heirloom gear.");
+	}
