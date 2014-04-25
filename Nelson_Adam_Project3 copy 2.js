@@ -25,4 +25,7 @@ var a = 10
 while(a>0){
 	console.log(a + "pets able to be called.");a--;
 }
-
+//for loop
+for (var i = 30; i>0; i--);{
+	console.log(i + "pets in the Stable.");
+}
