@@ -12,10 +12,17 @@ console.log("You will be a"+ yourRace);
 console.log("I hear that there are" + races + "races in the game and" + classes + "to choose from.");
 console.log("So you are going to play a Hunter, Right?");
 //return boolean
-function Checksex(maleOrFemale){
+function checkSex(maleOrFemale){
 if(maleOrFemale=="Male"){
 	return true;
 }else{
 	return false;
 }
+};
+checkSex();
+//while loop
+var a = 10
+while(a>0){
+	console.log(a + "pets able to be called.");a--;
 }
+
