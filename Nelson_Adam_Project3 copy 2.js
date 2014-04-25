@@ -29,3 +29,11 @@ while(a>0){
 for (var i = 30; i>0; i--);{
 	console.log(i + "pets in the Stable.");
 }
+//array return
+var petNames= ["Snow", "Shadow", "Flake", "Pistol", "Punch"];
+consle.log("My pets are" + petNames);
+//array method
+petNames.push("Bunker");
+//array property
+petNames.length;
+console.log("Now I have" + petNames.length + "now.");  
