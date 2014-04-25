@@ -45,4 +45,13 @@ if(heirloomGear>5){
 	console.log("time to power house it");}
 }else{
 	console.log("get your character some heirloom gear.");
-	}
+}
+//number return
+function calcPetsWithStampede(numberOfPets, petsOut){
+	var petsWithStampede = numberOfPets*petsOut;
+	return petsWithStampede;
+} 
+calcPetsWithStampede(5,1);
+console.log(petsWithStampede);
+
+
