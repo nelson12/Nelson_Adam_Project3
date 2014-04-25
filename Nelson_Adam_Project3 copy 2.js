@@ -53,5 +53,8 @@ function calcPetsWithStampede(numberOfPets, petsOut){
 } 
 calcPetsWithStampede(5,1);
 console.log(petsWithStampede);
-
+//math
+for(var healthPoints = 100;healthPoints>0;healthPoints-=10){ 
+	console.log("Watch out you only have" + healthPoints + "left before you die");
+}
 
